@@ -1,3 +1,4 @@
+import Logo from "../assets/img/Blockter.png"
 export default function Footer() {
     return(
         <section className="bg-white dark:bg-black">
@@ -7,8 +8,8 @@ export default function Footer() {
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
                             <a href="javascript:void(0)" className="flex items-center">
-                                {/* <img src={Logo} className="h-8 me-3" alt="View Point Logo" /> */}
-                                <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">View Point</span>
+                                <img src={Logo} className="h-8 me-3" alt="Blockster Logo" />
+                                <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">Blockster</span>
                             </a>
                         </div>
                         <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-2">
