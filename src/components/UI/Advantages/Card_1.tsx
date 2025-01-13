@@ -9,7 +9,7 @@ export default function Card_1() {
                 </h1>
                 <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">Here at Flowbite we focus on markets where technology, innovation, and capital can unlock long-term value and drive economic growth.</p>
             </div>
-            <div className="absolute top-0 right-0 h-full w-[2px] bg-gradient-to-b from-gray-700 to-black"></div>
+            <div className="absolute top-0 right-0 h-full w-[2px] bg-gradient-to-b from-gray-700 to-black lg:block hidden"></div>
         </section>
     );
 }
