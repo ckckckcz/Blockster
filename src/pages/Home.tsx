@@ -3,7 +3,7 @@ export default function Home() {
     return(
         <>
             <section className="bg-white dark:bg-black">
-                <div className="py-8 px-4 mx-auto max-w-screen-xl text-center lg:py-16">
+                <div className="py-8 px-4 mx-auto max-w-screen-2xl text-center lg:py-16">
                     <a href="#" className="inline-flex justify-between items-center py-1 px-1 pe-4 mb-7 text-sm text-blue-700 bg-blue-100 rounded-full dark:bg-gray-900 dark:text-white hover:bg-blue-200 dark:hover:bg-gray-800">
                         <span className="text-xs bg-gray-600 rounded-full text-white px-4 py-1.5 me-3 font-bold">New</span> <span className="text-sm font-bold">Get Listed on Binance</span> 
                         <svg className="w-2.5 h-2.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">

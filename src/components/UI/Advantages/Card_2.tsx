@@ -2,7 +2,7 @@ import Image from "../../../assets/img/Card_2.png";
 export default function Card_2() {
     return(
         <section className="relative">
-            <div className="py-8 px-8 mx-auto max-w-screen-xl text-left lg:py-16">
+            <div className="py-8 lg:px-8 px-4 mx-auto max-w-screen-xl text-left lg:py-16">
                 <img src={Image} alt="" className="mb-6 h-auto w-full " />
                 <h1 className="mb-2 text-2xl font-extrabold tracking-tight leading-none text-gray-100 md:text-2xl lg:text-3xl">
                     Trustless Enviroment

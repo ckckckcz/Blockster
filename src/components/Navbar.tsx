@@ -2,7 +2,7 @@ import Logo from "../assets/img/Blockter.png"
 export default function Navbar() {
     return(
         <nav className="bg-white border-gray-200 dark:bg-black">
-            <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6">
+            <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-6">
                 <a href="javascript:void(0)" className="flex items-center space-x-3 rtl:space-x-reverse">
                     <img src={Logo} className="h-8" alt="Flowbite Logo" />
                     <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Blockster</span>

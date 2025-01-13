@@ -2,9 +2,9 @@ import Logo from "../assets/img/Blockter.png"
 export default function Footer() {
     return(
         <section className="bg-white dark:bg-black">
-        <div className="px-4 mx-auto max-w-screen-xl text-left lg:py-1">
+        <div className="px-4 mx-auto max-w-screen-2xl text-left lg:py-1">
             <footer className="bg-white dark:bg-black">
-                <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
+                <div className="mx-auto w-full max-w-screen-2xl p-4 py-6 lg:py-8">
                     <div className="md:flex md:justify-between">
                         <div className="mb-6 md:mb-0">
                             <a href="javascript:void(0)" className="flex items-center">
