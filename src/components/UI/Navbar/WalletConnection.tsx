@@ -10,7 +10,7 @@ const WalletConnection = () => {
                 const accounts = await window.ethereum.request({
                     method: "eth_requestAccounts",
                 });
-                setWalletAddress(accounts[0]);
+                setWalletAddress(null);
             } catch (error){
                 console.error("Koneksi wallet gagal", error);
             }
