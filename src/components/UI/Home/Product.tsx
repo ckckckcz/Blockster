@@ -1,4 +1,4 @@
-import Card from "../Product/Card";
+// import Card from "../Product/Card";
 export default function Advantages() {
     return(
         <>
