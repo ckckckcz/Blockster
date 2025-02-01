@@ -1,5 +1,6 @@
 import Advantages from "../components/UI/Home/Advantages";
 import Partners from "../components/UI/Home/Partners";
+import Product from "../components/UI/Home/Product";
 export default function Home() {
     return(
         <>
@@ -76,6 +77,7 @@ export default function Home() {
             </section>
             <Advantages />
             <Partners />
+            <Product />
         </>
     );
 }

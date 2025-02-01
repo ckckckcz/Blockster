@@ -1,23 +1,22 @@
 import { useState } from "react";
-import { ethers } from "ethers";
 
 const WalletConnection = () => {
     const [walletAddress, setWalletAddress] = useState<string | null>(null);
 
-    const connectWallet = async () => {
+    async function connectWallet() {
         if (window.ethereum) {
             try {
                 const accounts = await window.ethereum.request({
                     method: "eth_requestAccounts",
-                });
-                setWalletAddress(null);
-            } catch (error){
+                }) as string[];
+                setWalletAddress(accounts[0]);
+            } catch (error) {
                 console.error("Koneksi wallet gagal", error);
             }
         } else {
             alert("Please install MetaMask");
         }
-    };
+    }
 
     return (
         <div>
